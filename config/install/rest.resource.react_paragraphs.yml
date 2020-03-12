@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - react_paragraphs
+    - serialization
+    - user
+id: react_paragraphs
+plugin_id: react_paragraphs
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie

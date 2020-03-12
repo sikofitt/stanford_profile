@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: card_1900x950
+label: 'Card - 1900x950'
+effects:
+  6ca3459f-2b0c-4efb-ac23-5c08990bef23:
+    uuid: 6ca3459f-2b0c-4efb-ac23-5c08990bef23
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1900
+      height: 950
+      crop_type: focal_point

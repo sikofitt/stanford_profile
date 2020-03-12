@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+id: stanford_profile
+label: 'Stanford Profile'
+description: ''
+folder: profiles/custom/stanford_profile/config/sync
+module:
+  config_filter: 0
+  config_split: 0
+  profile_split_enable: 0
+  stanford_profile: 1000
+profile: stanford_profile
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: false
+weight: 0

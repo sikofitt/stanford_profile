@@ -1,0 +1,16 @@
+langcode: en
+status: false
+dependencies: {  }
+id: soe_profile
+label: 'SOE Profile'
+description: ''
+folder: profiles/custom/soe_profile/config/split
+module:
+  stanford_news: 0
+  soe_profile: 1000
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: false
+weight: 0
